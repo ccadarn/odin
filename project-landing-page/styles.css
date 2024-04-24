@@ -1,0 +1,133 @@
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.jay {
+    width: 50px; 
+    height: auto; 
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px; 
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+li {
+    display: inline;
+    text-: none;
+    margin-right: 10px;
+}
+
+.content {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.hero_main_text {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.hero_secondary_text {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.img_main {
+    width: 400px;
+    height: auto;
+    border-radius: 10%;
+    border: solid 1px white;
+}
+
+.info {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.img_info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10%; 
+    border: solid 1px #1F2937; 
+}
+
+.customer {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 20px 400px;
+    text-align: center;   
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    margin: 50px 400px;
+    border-radius: 10px;
+}
+
+.b2 {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
