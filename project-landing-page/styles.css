@@ -33,7 +33,7 @@ ul {
 
 li {
     display: inline;
-    text: none;
+    text-decoration: none;
     margin-right: 10px;
 }
 
