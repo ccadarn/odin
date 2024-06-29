@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+  }
+  
+  .button-container {
+    margin-top: 20px; /* Adjust this value to position the button */
+    margin-bottom: 20px;
+    z-index: 1;
+  }
+
+  .button-container :hover {
+    background-color: orange;
+    color: white;
+  }  
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw; /* container width */
+    height: 80vw; /* container height */
+    max-width: 960px; /* Limit max width to ensure it fits within screen */
+    max-height: 960px; /* Limit max height to ensure it fits within screen */
+  }
+  
+  .grid-cell {
+    width: calc(100% / 16); /* Adjust cell width based on the number of columns */
+    height: calc(100% / 16); /* Adjust cell height based on the number of rows */
+    background-color: white;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease; /* Smooth transition for background color change */
+  }
+  
